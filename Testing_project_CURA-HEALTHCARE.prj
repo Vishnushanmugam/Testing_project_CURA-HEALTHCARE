@@ -7,6 +7,7 @@
    <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>/home/vishnu/git/Testing_project_CURA-HEALTHCARE/Testing_project_CURA-HEALTHCARE.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
