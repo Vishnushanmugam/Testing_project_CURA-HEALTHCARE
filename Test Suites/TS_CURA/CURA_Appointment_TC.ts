@@ -15,7 +15,7 @@
       <guid>47dfb40f-5bcf-4b27-a162-382252229954</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TS_CURA/CURA_Makeappointment/appointment booking</testCaseId>
+      <testCaseId>Test Cases/TC_CURA/CURA_Makeappointment/appointment booking</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

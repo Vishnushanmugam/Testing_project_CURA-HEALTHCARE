@@ -15,7 +15,7 @@
       <guid>c82a9db9-f632-4e72-9374-66b7c841901f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TS_CURA/CURA_Name_validation/CURA Heading validation</testCaseId>
+      <testCaseId>Test Cases/TC_CURA/CURA_Name_validation/CURA Heading validation</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
