@@ -24,5 +24,5 @@ WebUI.click(findTestObject('cura_healthcare_obj/Cura_History/History/i_CURA Heal
 
 WebUI.click(findTestObject('cura_healthcare_obj/Cura_History/History/a_History'))
 
-WebUI.verifyElementPresent(findTestObject('cura_healthcare_obj/Cura_History/History/h2_History'), 0)
+WebUI.verifyCheckpoint(findCheckpoint('Checkpoints/Checkpoints_Cura_Excel/Checkpoint_cura_all_ele'), true)
 

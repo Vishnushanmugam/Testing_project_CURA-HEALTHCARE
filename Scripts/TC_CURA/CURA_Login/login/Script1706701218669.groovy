@@ -24,15 +24,15 @@ WebUI.callTestCase(findTestCase('TC_CURA/CURA_Name_validation/CURA Heading valid
 
 WebUI.click(findTestObject('cura_healthcare_obj/Cura_LOGIN/login_obj/a_CURA Healthcare_menu-toggle'))
 
-WebUI.click(findTestObject('Object Repository/cura_healthcare_obj/Cura_LOGIN/Page_CURA Healthcare Service/a_Login'))
+WebUI.click(findTestObject('cura_healthcare_obj/Cura_LOGIN/login_obj/a_Login'))
 
-WebUI.verifyElementClickable(findTestObject('cura_healthcare_obj/Cura_LOGIN/login_obj/a_Login'))
+WebUI.setText(findTestObject('cura_healthcare_obj/Cura_LOGIN/login_obj/input_Username_username'), name)
 
-WebUI.setText(findTestObject('Object Repository/cura_healthcare_obj/Cura_LOGIN/Page_CURA Healthcare Service/input_username'), 
-    name)
+WebUI.verifyCheckpoint(findCheckpoint('Checkpoints/Checkpoints_Cura_Excel/Checkpoint_cura_all_ele'), false)
 
-WebUI.setText(findTestObject('Object Repository/cura_healthcare_obj/Cura_LOGIN/Page_CURA Healthcare Service/input_password'), 
-    password)
+WebUI.setText(findTestObject('cura_healthcare_obj/Cura_LOGIN/login_obj/input_Password_password'), password)
 
-WebUI.click(findTestObject('Object Repository/cura_healthcare_obj/Cura_LOGIN/Page_CURA Healthcare Service/button_Login'))
+WebUI.click(findTestObject('cura_healthcare_obj/Cura_LOGIN/login_obj/button_Login'))
+
+CustomKeywords.'elt_checks.good.verifyElementClickable'(findTestObject('cura_healthcare_obj/Cura_LOGIN/login_obj/button_Login'))
 

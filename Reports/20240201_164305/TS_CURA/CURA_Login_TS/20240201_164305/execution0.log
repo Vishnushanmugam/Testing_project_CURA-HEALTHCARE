@@ -11198,3 +11198,121 @@ Driver info: driver.version: unknown</property>
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
+<record>
+  <date>2024-02-01T12:35:31.380793922Z</date>
+  <millis>1706790931380</millis>
+  <nanos>793922</nanos>
+  <sequence>3141</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/CURA_login_data/login_data&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-01T12:35:31.385986426Z</date>
+  <millis>1706790931385</millis>
+  <nanos>986426</nanos>
+  <sequence>3142</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-01T12:35:31.387114950Z</date>
+  <millis>1706790931387</millis>
+  <nanos>114950</nanos>
+  <sequence>3143</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Reading excel file with source file &amp;apos;/home/vishnu/git/Testing_project_CURA-HEALTHCARE/CURA DATAS/Cura_LOGIN_DATA.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-01T12:39:20.941333496Z</date>
+  <millis>1706791160941</millis>
+  <nanos>333496</nanos>
+  <sequence>3238</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/CURA_login_data/login_data&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-01T12:39:20.945420412Z</date>
+  <millis>1706791160945</millis>
+  <nanos>420412</nanos>
+  <sequence>3239</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-01T12:39:20.946906348Z</date>
+  <millis>1706791160946</millis>
+  <nanos>906348</nanos>
+  <sequence>3240</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Reading excel file with source file &amp;apos;/home/vishnu/git/Testing_project_CURA-HEALTHCARE/CURA DATAS/Cura_LOGIN_DATA.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-01T12:59:03.149268006Z</date>
+  <millis>1706792343149</millis>
+  <nanos>268006</nanos>
+  <sequence>3318</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1195</thread>
+  <message>Finding test data with id &amp;apos;Data Files/CURA_login_data/login_data&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-01T12:59:03.153610635Z</date>
+  <millis>1706792343153</millis>
+  <nanos>610635</nanos>
+  <sequence>3319</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1195</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-01T12:59:03.155044981Z</date>
+  <millis>1706792343155</millis>
+  <nanos>44981</nanos>
+  <sequence>3320</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1195</thread>
+  <message>Reading excel file with source file &amp;apos;/home/vishnu/git/Testing_project_CURA-HEALTHCARE/CURA DATAS/Cura_LOGIN_DATA.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+</log>

@@ -25,7 +25,7 @@ WebUI.click(findTestObject('cura_healthcare_obj/Cura_Logout/Logout/i_CURA Health
 
 WebUI.click(findTestObject('cura_healthcare_obj/Cura_Logout/Logout/a_Logout'))
 
-WebUI.verifyElementVisible(findTestObject('cura_healthcare_obj/Cura_Logout/Logout/div_HOME'))
+WebUI.verifyCheckpoint(findCheckpoint('Checkpoints/Checkpoints_Cura_Excel/Checkpoint_cura_all_ele'), true)
 
 WebUI.closeBrowser()
 

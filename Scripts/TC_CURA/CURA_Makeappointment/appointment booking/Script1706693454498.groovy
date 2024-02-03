@@ -17,9 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('TC_CURA/CURA_Login/login'), [('link') : 'https://katalon-demo-cura.herokuapp.com/', ('Name') : findTestData(
-            'CURA_login_data/login_data').getValue(1, 1), ('Password') : findTestData('CURA_login_data/login_data').getValue(
-            2, 1)], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('TC_CURA/CURA_Login/login'), [('name') : findTestData('CURA_login_data/login_data').getValue(
+            1, 1), ('password') : findTestData('CURA_login_data/login_data').getValue(2, 1)], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyCheckpoint(findCheckpoint('Checkpoints/Checkpoints_Cura_Excel/Checkpoint_cura_all_ele'), true)
 
 WebUI.selectOptionByValue(findTestObject('cura_healthcare_obj/Cura_booking_appointment/Booking appointment/Dropdown list'), 
     Hospital, false)
@@ -38,4 +39,6 @@ WebUI.setText(findTestObject('cura_healthcare_obj/Cura_booking_appointment/Booki
     Comment)
 
 WebUI.click(findTestObject('cura_healthcare_obj/Cura_booking_appointment/Booking appointment/button_Book Appointment'))
+
+WebUI.verifyCheckpoint(findCheckpoint('Checkpoints/Checkpoints_Cura_Excel/Checkpoint_cura_all_ele'), true)
 

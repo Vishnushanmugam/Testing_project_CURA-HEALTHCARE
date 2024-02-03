@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='btn-login']</value>
+         <value>//button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

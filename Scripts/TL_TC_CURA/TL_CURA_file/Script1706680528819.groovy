@@ -18,23 +18,18 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //WebUI.openBrowser('')
-
 //WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
-
 //WebUI.click(findTestObject('Object Repository/TL_CURA_OBJ/Page_CURA Healthcare Service/a_Make Appointment'))
-
 //WebUI.setText(findTestObject('Object Repository/TL_CURA_OBJ/Page_CURA Healthcare Service/input_username'), 'John Doe')
-
 //WebUI.setEncryptedText(findTestObject('Object Repository/TL_CURA_OBJ/Page_CURA Healthcare Service/input_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
-
 //WebUI.click(findTestObject('Object Repository/TL_CURA_OBJ/Page_CURA Healthcare Service/button_Login'))
-
 WebUI.selectOptionByValue(findTestObject('Object Repository/TL_CURA_OBJ/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'), 
     'Hongkong CURA Healthcare Center', true)
 
-WebUI.click(findTestObject('Object Repository/TL_CURA_OBJ/Page_CURA Healthcare Service/input_hospital_readmission'))
+CustomKeywords.'ky_droplist.dropdownvalue.CheckDropDownListElementExist'(findTestObject('TL_CURA_OBJ/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'), 
+    'Hongkong CURA Healthcare Center')
 
-WebUI.click(findTestObject('Object Repository/TL_CURA_OBJ/Page_CURA Healthcare Service/input_programs'))
+WebUI.click(findTestObject('Object Repository/TL_CURA_OBJ/Page_CURA Healthcare Service/input_hospital_readmission'))
 
 WebUI.click(findTestObject('Object Repository/TL_CURA_OBJ/Page_CURA Healthcare Service/label_Medicaid'))
 
@@ -46,13 +41,11 @@ WebUI.setText(findTestObject('Object Repository/TL_CURA_OBJ/Page_CURA Healthcare
 
 WebUI.click(findTestObject('Object Repository/TL_CURA_OBJ/Page_CURA Healthcare Service/button_Book Appointment'))
 
+WebUI.verifyCheckpoint(findCheckpoint('Checkpoints/Checkpoints_Cura_Excel/Checkpoint_cura_all_ele'), false)
+
 WebUI.click(findTestObject('Object Repository/TL_CURA_OBJ/Page_CURA Healthcare Service/amenu-toggle'))
 
 WebUI.click(findTestObject('Object Repository/TL_CURA_OBJ/Page_CURA Healthcare Service/a_History'))
 
-//WebUI.click(findTestObject('Object Repository/TL_CURA_OBJ/Page_CURA Healthcare Service/amenu-toggle'))
-
-//WebUI.click(findTestObject('Object Repository/TL_CURA_OBJ/Page_CURA Healthcare Service/a_Logout'))
-
-//WebUI.closeBrowser()
+WebUI.verifyCheckpoint(findCheckpoint('Checkpoints/Checkpoints_Cura_Excel/Checkpoint_cura_all_ele'), true)
 
